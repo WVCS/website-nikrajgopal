@@ -1,11 +1,31 @@
-
 body {
   background-color: black;
 }
+
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: lightblue;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+li{
+  display: inline;
+  padding: 0.5%;
+  float: left;
+}
+li:hover {
+  background-color: white;
+}
+a{
+  text-decoration: none;
+}
+
 h2{
   color:  lightblue;
   text-align: center;
   font-size: 100px;
   text-shadow: 3px 3px 3px white;
 }
-
